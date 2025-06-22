@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Formulario sobre Iniciativas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mulheres na Tecnologia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="desafio.html">Desafios</a></li>
+                <li><a href="iniciativas.html">Formulario/a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulário: Sua Opinião Sobre Mulheres na Tecnologia</h2>
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="nome" required><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br>
+
+            <label>Você acredita que há espaço para mais mulheres na tecnologia?</label><br>
+            <input type="radio" name="espaco" value="Sim"> Sim<br>
+            <input type="radio" name="espaco" value="Não"> Não<br>
+
+            <label>Que ações você considera mais importantes para aumentar a presença feminina na área?</label><br>
+            <select name="acoes">
+                <option>Mentoria e Capacitação</option>
+                <option>Políticas de Inclusão nas Empresas</option>
+                <option>Incentivos Educacionais</option>
+                <option>Outro</option>
+            </select><br>
+
+            <label>Você conhece alguma iniciativa voltada para mulheres em tecnologia?</label><br>
+            <textarea name="iniciativas"></textarea><br>
+
+            <label>Gostaria de receber notificação sobre o tema?</label>
+            <input type="checkbox" name="notificacao"> Sim<br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Contato e Redes Sociais Ficticias</p>
+    </footer>
+</body>
+</html>
